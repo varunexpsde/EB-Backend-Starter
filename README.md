@@ -34,32 +34,32 @@ ANT project starter code is a "Hello World" to start building the actual code. T
 
 ### File Structure
 
-\- src\
-   |- config/\
-\------- config.ts => AWS and other configuration files\
-\- utils/\
- \- logger.ts => Exports fucniton that returns a custom logger\
-\- controllers/v0\
- \- users/\
- \- models/\
- \- model.ts => user data models\
- \- routes/\
- \- userapiX.ts => user apis\
- \- companies/\
- \- models/\
- \- model.ts => companies data models\
- \- routes/\
- \- companiesapiX.ts => companies apis\
- \- server.ts => main ts file that routes the incoming requests to appropriate endpoints\
- \- migrations/\
- \- userMigration.ts => user migration data\
- \- companiesMigration.ts => compaines migration data\
-\- .eslintrc.json => ESLint configurations\
-\- .prettierrc => prettier configurations\
-\- .npmrc => npm configurations\
-\- package.json => metadata relevant to the project\
-\- README.md => readme file\
-\- tsconfig.json => tsc configurations\
+|\- src\
+|   |\- config/\
+|   |   |\- config.ts => AWS and other configuration files\
+|   |\- utils/\
+|   |   |\- logger.ts => Exports fucniton that returns a custom logger\
+|   |\- controllers/v0\
+|   |   |\- users/\
+|   |   |   |\- models/\
+|   |   |   |   |\- model.ts => user data models\
+|   |   |   |\- routes/\
+|   |   |   |   |\- userapiX.ts => user apis\
+|   |   |\- companies/\
+|   |   |   |\- models/\
+|   |   |   |   |\- model.ts => companies data models\
+|   |   |   |\- routes/\
+|   |   |   |   |\- companiesapiX.ts => companies apis\
+|   |\- server.ts => main ts file that routes the incoming requests to appropriate endpoints\
+|   |\- migrations/\
+|       |\- userMigration.ts => user migration data\
+|       |\- companiesMigration.ts => compaines migration data\
+|\- .eslintrc.json => ESLint configurations\
+|\- .prettierrc => prettier configurations\
+|\- .npmrc => npm configurations\
+|\- package.json => metadata relevant to the project\
+|\- README.md => readme file\
+|\- tsconfig.json => tsc configurations\
 
 Some more resources on ESlint and prettier:
 
