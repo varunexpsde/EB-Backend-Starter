@@ -14,7 +14,7 @@ ANT project starter code is a "Hello World" to start building the actual code. T
 
    `$ npm install`
 
-**NOTICE: You should install and configure Node.js on your machine for more info see (here)[https://nodejs.org/en/download/]**
+**NOTICE: You should install and configure Node.js on your machine for more info see [here](https://nodejs.org/en/download/)**
 
 3. Running the node.js server locally:
 
@@ -22,7 +22,7 @@ ANT project starter code is a "Hello World" to start building the actual code. T
 
 ### Deploying to the AWS Elastic Beanstalk
 
-1. Install EB CLI and configure with your aws credentials as shown ![here](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html).
+1. Install EB CLI and configure with your aws credentials as shown [here](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html).
 
 2. Create an EB environment using:
 
