@@ -22,7 +22,7 @@ ANT project starter code is a "Hello World" to start building the actual code. T
 
 ### Deploying to the AWS Elastic Beanstalk
 
-1. Install EB CLI and configure with your aws credentials as shown (here)[https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html].
+1. Install EB CLI and configure with your aws credentials as shown !(here)[https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html].
 
 2. Create an EB environment using:
 
@@ -36,7 +36,7 @@ ANT project starter code is a "Hello World" to start building the actual code. T
 
 |\- src\
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- config/\
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- config.ts => AWS and other configuration files\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- config.ts => AWS and other configuration file\
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- utils/\
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- logger.ts => Exports fucniton that returns a custom logger\
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- controllers/v0\
@@ -63,4 +63,4 @@ ANT project starter code is a "Hello World" to start building the actual code. T
 
 Some more resources on ESlint and prettier:
 
-(Youtube)[https://www.youtube.com/watch?v=SydnKbGc7W8]
+!(Youtube)[https://www.youtube.com/watch?v=SydnKbGc7W8]
