@@ -1,6 +1,6 @@
-### ANT Starter Code
+### EB Starter Code
 
-ANT project starter code is a "Hello World" to start building the actual code. This repository consist of all the basic packages to be installed along with industry standard ESLint configurations preconfigured. Furthermore, this starter code is readily deployable on the Elastic Beanstalk.
+EB project starter code is a "Hello World" to start building the actual code. This repository consist of all the basic packages to be installed along with industry standard ESLint configurations preconfigured. Furthermore, this starter code is readily deployable on the Elastic Beanstalk.
 
 ### How to use?
 
