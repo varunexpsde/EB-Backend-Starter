@@ -35,7 +35,7 @@ ANT project starter code is a "Hello World" to start building the actual code. T
 ### File Structure
 
 \- src\
-\---- config/\
+   |- config/\
 \------- config.ts => AWS and other configuration files\
 \- utils/\
  \- logger.ts => Exports fucniton that returns a custom logger\
