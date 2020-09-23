@@ -35,25 +35,25 @@ ANT project starter code is a "Hello World" to start building the actual code. T
 ### File Structure
 
 |\- src\
-|&nbsp;&nbsp;&nbsp;&nbsp;|\- config/\
-|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|\- config.ts => AWS and other configuration files\
-|   |\- utils/\
-|   |   |\- logger.ts => Exports fucniton that returns a custom logger\
-|   |\- controllers/v0\
-|   |   |\- users/\
-|   |   |   |\- models/\
-|   |   |   |   |\- model.ts => user data models\
-|   |   |   |\- routes/\
-|   |   |   |   |\- userapiX.ts => user apis\
-|   |   |\- companies/\
-|   |   |   |\- models/\
-|   |   |   |   |\- model.ts => companies data models\
-|   |   |   |\- routes/\
-|   |   |   |   |\- companiesapiX.ts => companies apis\
-|   |\- server.ts => main ts file that routes the incoming requests to appropriate endpoints\
-|   |\- migrations/\
-|       |\- userMigration.ts => user migration data\
-|       |\- companiesMigration.ts => compaines migration data\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- config/\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- config.ts => AWS and other configuration files\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- utils/\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- logger.ts => Exports fucniton that returns a custom logger\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- controllers/v0\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- users/\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- models/\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- model.ts => user data models\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- routes/\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- userapiX.ts => user apis\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- companies/\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- models/\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- model.ts => companies data models\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- routes/\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- companiesapiX.ts => companies apis\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- server.ts => main ts file that routes the incoming requests to appropriate endpoints\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- migrations/\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- userMigration.ts => user migration data\
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|\- companiesMigration.ts => compaines migration data\
 |\- .eslintrc.json => ESLint configurations\
 |\- .prettierrc => prettier configurations\
 |\- .npmrc => npm configurations\
